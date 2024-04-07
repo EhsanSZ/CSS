@@ -1,0 +1,103 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('./fonts/Vazir.ttf');
+}
+body{
+    font-family: 'vazir', sans-serif;
+}
+/* utilities */
+.text-center{
+    text-align: center;
+}
+.align-items-center{
+    align-items: center;
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+
+/* header */
+header{
+    background: #37517e;
+}
+.navbar{
+    padding: 30px;
+    color: white;
+    letter-spacing: 10px;
+}
+.intro{
+    padding: 50px;
+    color: rgb(242, 240, 240);
+}
+.title{
+    font-size: 30px;
+}
+.desc{
+    line-height: 1.5rem;
+    text-align: justify;
+    padding: 20px 0;
+    color: rgb(202, 202, 202);
+}
+.start-btn{
+    all: unset;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+.start-btn:hover{
+    background: white;
+    color: #37517e;
+}
+
+/* general */
+section{
+    padding: 15px;
+}
+.section-title{
+    font-family: 'lalezar';
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* team */
+.team-card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.team-card:hover{
+    transform: scale(1.05);
+}
+.team-card-name {
+    color: #012970;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.team-card-job {
+    color: #a3a4a4;
+    font-size: 16px;
+    padding: 10px;
+}
+.team-card-desc {
+    color: rgb(100, 100, 100);
+    padding: 20px 20px 30px;
+    text-align: justify;
+
+}
+
+/* footer */
+footer{
+    background: #37517e;
+    padding: 70px 20px;
+    color: white;
+}
+
